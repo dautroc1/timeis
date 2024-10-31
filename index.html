@@ -31,7 +31,7 @@ if(xR!=N){
 rqT=new Date()
 czo=-rqT.getTimezoneOffset()
 xR.onreadystatechange=s_C
-xR.open('get','/t1/?'+l+'.'+syncn+'.'+lY+'.'+tD+'.'+rsy+'p.'+czo+'.'+locs[array_name][conf['h']][1]+'.'+rqT.getTime()+'.'+sT+'.'+yrp,E)
+xR.open('get','https://time.is/t1/?'+l+'.'+syncn+'.'+lY+'.'+tD+'.'+rsy+'p.'+czo+'.'+locs[array_name][conf['h']][1]+'.'+rqT.getTime()+'.'+sT+'.'+yrp,E)
 xR.send(N)
 yrp=''
 }else xR='N/A'
